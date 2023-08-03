@@ -1,0 +1,278 @@
+/*index page*/
+.navbar {
+
+  background-color: black;
+}
+
+.nav a {
+  font-family: 'Molengo', sans-serif;
+  font-size: larger;
+  color: #7c5690;
+}
+
+.nav a:hover {
+
+  color: black;
+}
+.nav1{
+  margin-left: 5%;
+  list-style-type: none;
+}
+.nav1 a {
+  font-family: 'Molengo', sans-serif;
+  font-size: larger;
+  color: #7c5690;
+}
+
+.nav1 a:hover {
+  color: black;
+}
+.twitter {
+  margin-top: 17%;
+}
+
+.body {
+  background-image: linear-gradient(to left, #99f2c8 0%, #e4e4d9 100%);
+
+}
+
+.justify-content-center {
+  text-align: center;
+}
+
+.main {
+  margin-top: 10%;
+  margin-left: 5%;
+  display: flex;
+}
+
+.main p {
+  font-family: 'Molengo', sans-serif;
+  color: #7c5690;
+  font-size: 96px;
+}
+
+.main img {
+  width: 40%;
+  margin-left: 10%;
+}
+
+.project_sec {
+  margin-top: 10%;
+  background-color: transparent;
+  min-height: 90vh;
+}
+
+.heading {
+  font-family: 'Molengo', sans-serif;
+  color: #7c5690;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.pro_img {
+  margin-left: 33.5%;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 2%;
+}
+.carousel-caption a {
+  text-decoration: none;
+  color: #7c5690;
+}
+
+/* contact page */
+.con_heading {
+  font-family: 'Molengo', sans-serif;
+  color: #000;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.conc_main {
+  margin-top: 5%;
+  display: flex;
+  margin-left: 28%;
+}
+
+.cont_right {
+
+  color: #000;
+  font-family: 'Molengo', sans-serif;
+  font-size: large;
+  padding-inline: 5%;
+}
+
+.cont_right a {
+  color: #000;
+}
+
+form {
+  width: 400px
+}
+
+hr {
+  color: white;
+}
+#exampleInputEmail1{
+  background-color: transparent;
+  border: 1px solid black;
+}
+#exampleInputPassword1{
+  background-color: transparent;
+  border: 1px solid black;
+}
+.btn{
+  width: 400px;
+}
+
+.contact-icon1 {
+  display: flex;
+}
+
+.copyright {
+  color: gray;
+  font-family: 'Molengo', sans-serif;
+  font-size: large;
+}
+
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #333333;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+
+/*about*/
+.about_me {
+  background-image: url(images/main_about_bg.svg);
+  background-repeat: no-repeat;
+  background-position: top left 20%;
+  margin-top: 1%;
+}
+
+.about_me p {
+  color: #7c5690;
+  text-align: justify;
+  width: 40%;
+  margin-left: 50%;
+  padding: 7%;
+  font-family: 'Molengo', sans-serif;
+  font-size: large;
+}
+
+.heading_about {
+  font-family: 'Molengo', sans-serif;
+  color: #7c5690;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.services ul li {
+  color: #7c5690;
+  text-align: justify;
+}
+
+.services_head {
+  font-weight: bold;
+  color: #7c5690;
+}
+
+.services_sub {
+  color: black;
+}
+
+
+/*team*/
+.team-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: linear-gradient(to right, #e4e4d9 0%, #99f2c8 100%);
+  border-radius: 10px;
+}
+
+.team-gallery>div {
+  flex-basis: 350px;
+  padding: 2%;
+}
+
+.team-gallery div a img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.team-gallery div a img:hover {
+
+  box-shadow: #000 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.heading_team {
+  font-family: 'Molengo', sans-serif;
+  color: #7c5690;
+  font-size: 48px;
+  text-align: center;
+  margin-left: 2%;
+}
+
+
+
+
+
